@@ -10,10 +10,10 @@ namespace OutlookConsole
         static void Main(string[] args)
         {
             var graphClient = new GraphClient();
-            var Token = graphClient.GetAuthToken2();
+            //var Token = graphClient.GetAuthToken2();
 
             bool anotherRequest = true;
-            Token.Wait();
+            //Token.Wait();
             while (anotherRequest)
             {
                 Console.WriteLine("Choose a number:");
